@@ -1,0 +1,14 @@
+Skeleton.hwpx
+=============
+
+이 폴더의 Skeleton.hwpx 는 python-hwpx 프로젝트에서 가져왔습니다.
+한컴오피스 한글이 직접 저장한 빈 문서로, docx2hwpx 가 만드는 .hwpx 의
+뼈대(서식표 기본값, 구역 설정, 패키지 구성)로 쓰입니다.
+
+  python-hwpx
+  Copyright 2025-2026 airmang
+  Licensed under the Apache License, Version 2.0
+  https://github.com/airmang/python-hwpx
+  http://www.apache.org/licenses/LICENSE-2.0
+
+변경 사항: 없음. 파일을 그대로 두고, 변환할 때 메모리에서 내용을 덧붙입니다.

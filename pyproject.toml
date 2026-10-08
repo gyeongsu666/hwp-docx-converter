@@ -1,0 +1,23 @@
+[project]
+name = "hwp2docx"
+version = "0.2.0"
+description = "한글(.hwp)과 Word(.docx)를 서로 변환합니다."
+requires-python = ">=3.10"
+dependencies = ["olefile>=0.46", "python-docx>=1.0"]
+
+[project.optional-dependencies]
+check = ["Pillow", "numpy"]
+
+[project.scripts]
+hwp2docx = "hwp2docx.cli:main"
+docx2hwpx = "docx2hwpx.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["hwp2docx", "docx2hwpx"]
+
+[tool.setuptools.package-data]
+docx2hwpx = ["data/*"]
